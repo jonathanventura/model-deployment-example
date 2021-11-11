@@ -24,7 +24,7 @@ import os
 REGION = '' # put your region here
 PROJECT_ID = '' # put your project id here
 VERSION_NAME = 'v1_0'
-MODEL_NAME = 'penguins'
+MODEL_NAME = '' # put your model name here
 
 client_options = ClientOptions(api_endpoint='https://{}-ml.googleapis.com'.format(REGION))
 service = googleapiclient.discovery.build('ml', 'v1',
