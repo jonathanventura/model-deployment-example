@@ -65,7 +65,7 @@ First, create the app:
 
     gcloud app create --project <project name> --region <region>
     
-In the `app` directory, modify `main.py` and specify your region, project ID, and model name.  Then run `gcloud app deploy`.  Then you should be able to access the web app in your web browser -- `glcoud app browse` will pull up the page for you.
+In the `app` directory, modify `main.py` and specify your region, project ID, and model name.  Then run `gcloud app deploy`.  Then you should be able to access the web app in your web browser -- `gcloud app browse` will pull up the page for you.
 
 
 
