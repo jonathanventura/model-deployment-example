@@ -46,8 +46,7 @@ First, create the service object:
     client_options = ClientOptions( api_endpoint=f'https://{REGION}-ml.googleapis.com')
     service = googleapiclient.discovery.build('ml', 'v1', client_options=client_options)
     
-    f'projects/{PROJECT_ID}/models/{MODEL_NAME}'
-    name += f'/versions/{VERSION_NAME}'
+    name = f'projects/{PROJECT_ID}/models/{MODEL_NAME}/versions/{VERSION_NAME}'
 
     data = [[ 39.1,18.7,181.0,3750.0 ]] # example row from penguins dataset
     responses = service.projects().predict(
