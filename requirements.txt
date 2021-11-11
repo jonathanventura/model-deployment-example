@@ -1,0 +1,6 @@
+joblib
+seaborn
+jupyter
+scikit-learn
+google
+google-api-python-client
